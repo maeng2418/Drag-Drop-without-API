@@ -1,7 +1,7 @@
 import { Div } from 'tags';
 
 export const Note = (children = [], props = {}) => {
-  return Div([], {
+  return Div(children, {
     ...props,
     class: `note ${props.class && props.class}`,
     style: `${Style} ${props.style && props.style}`,
@@ -9,4 +9,7 @@ export const Note = (children = [], props = {}) => {
 };
 
 const Style = `
+  border: .5rem solid gray;
+  height: 5rem;
+  margin: 1rem 0;
 `;

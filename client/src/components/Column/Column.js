@@ -1,8 +1,9 @@
 import { Div } from 'tags';
 import { Title } from './Title';
+import { Content } from './Content';
 
 export const Column = (children = [], props = {}) => {
-  return Div([Title([...children])], {
+  return Div([Title([...children]), Content()], {
     ...props,
     class: `column ${props.class && props.class}`,
     style: `${Style} ${props.style && props.style}`,
