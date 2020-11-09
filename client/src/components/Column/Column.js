@@ -11,7 +11,9 @@ export const Column = (children = [], props = {}) => {
 };
 
 const Style = `
+  display: flex;
+  flex-direction: column;
   width: 25%;
-  height: 80vh;
+  min-height: 80vh;
   border: .5rem solid lightgray;
 `;

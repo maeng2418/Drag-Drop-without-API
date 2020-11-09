@@ -10,4 +10,6 @@ export const Content = (children = [], props = {}) => {
 
 const Style = `
   padding: .5rem;
+  height: 100%;
+  flex-grow: 1;
 `;

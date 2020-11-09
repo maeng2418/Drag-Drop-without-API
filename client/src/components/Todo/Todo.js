@@ -20,7 +20,7 @@ const Style = `
   position: relative;
   display: flex;
   width: 100%;
-  height: 100vh;
+  margin-top: 10vh;
+  min-height: 80vh;
   justify-content: space-around;
-  align-items: center;
 `;
