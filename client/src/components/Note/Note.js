@@ -10,6 +10,6 @@ export const Note = (children = [], props = {}) => {
 
 const Style = `
   border: .5rem solid gray;
-  height: 5rem;
+  height: 8vh;
   margin: 1rem 0;
 `;
